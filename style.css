@@ -13,8 +13,23 @@ input {
 }
 
 #meme-image-container {
+  background-color: white;
   border: 1px solid black;
   margin: 10px;
+  height: 400px;
+  width: 400px;
+}
+
+#meme-text {
+  z-index: 1;
+  color: white;
+  position: absolute;
+  font-size: 30px;
+  text-shadow: 5px 5px 5px black;
+}
+
+#meme-image {
+  position: absolute;
   height: 400px;
   width: 400px;
 }

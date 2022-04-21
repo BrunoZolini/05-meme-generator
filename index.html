@@ -12,12 +12,14 @@
   <main id="main">
     <h1>MEME GENERATOR</h1>
     <section id="conteudo">
-      <label for="texto">Texto:</label>
-      <input type="text" name="texto" value="" id="text-input">
-      <br>
-      <label for="foto">Foto:</label>
-      <input type="file" name="foto" id="">
+      <label for="text-input">Texto:
+        <input type="text" name="texto" value="" id="text-input">
+      </label>
+      <label for="meme-insert">Foto:
+        <input type="file" id="meme-insert">
+      </label>
       <div id="meme-image-container">
+        <img id="meme-image">
         <span id="meme-text"></span>
       </div>
     </section>
