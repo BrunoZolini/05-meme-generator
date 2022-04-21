@@ -12,6 +12,17 @@ input {
   margin: 5px;
 }
 
+#conteudo {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#inputs-container {
+  display: flex;
+  flex-direction: column;
+}
+
 #meme-image-container {
   background-color: white;
   border: 1px solid black;
@@ -21,15 +32,33 @@ input {
 }
 
 #meme-text {
-  z-index: 1;
   color: white;
-  position: absolute;
   font-size: 30px;
+  position: absolute;
   text-shadow: 5px 5px 5px black;
+  z-index: 1;
 }
 
 #meme-image {
   position: absolute;
   height: 400px;
   width: 400px;
+}
+
+#fire {
+  background-color: red;
+  color: white;
+  padding: 5px;
+}
+
+#water {
+  background-color: blue;
+  color: white;
+  padding: 5px;
+}
+
+#earth {
+  background-color: green;
+  color: white;
+  padding: 5px;
 }
