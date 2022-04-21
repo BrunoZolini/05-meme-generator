@@ -4,6 +4,7 @@ const memeContainer = document.querySelector('#meme-image-container');
 const memeText = document.querySelector('#meme-text');
 const memeImage = document.querySelector('#meme-image');
 const elementsButtons = document.querySelector('#elements-buttons');
+const memeSection = document.querySelector('#memes-section');
 
 inputText.addEventListener('keyup', () => {
   const texto = inputText.value;
@@ -21,4 +22,8 @@ elementsButtons.addEventListener('click', (event) => {
   if (buttonSelected === 'fire') memeContainer.style.border = '3px dashed red';
   if (buttonSelected === 'water') memeContainer.style.border = '5px double blue';
   if (buttonSelected === 'earth') memeContainer.style.border = '6px groove green';
+});
+
+memeSection.addEventListener('click', (event) => {
+  memeImage.src = event.target.src;
 });

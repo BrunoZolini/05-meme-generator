@@ -62,3 +62,26 @@ input {
   color: white;
   padding: 5px;
 }
+
+.meme-img {
+  border: 1px solid black;
+  height: 80px;
+  margin: 5px;
+  width: 120px;
+}
+
+#memes-section {
+  align-items: center;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  justify-content: center;
+  width: 140px;
+}
+
+#conteudo-memes {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
